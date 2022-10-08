@@ -4,8 +4,8 @@ from telebot import types
 from user_agent import generate_user_agent
 import logging
 from config import *
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-SUDO = int(os.environ.get("SUDO","5359109940"))
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "1766902841:AAEx_oFZSOUAkUV50Uze_blRVuhlFQxsuI4")
+SUDO = int(os.environ.get("SUDO","1593675355"))
 Heroku = os.environ.get("HEROKU", "APP-NAME")
 APP_URL = "https://"+ Heroku +".herokuapp.com/" + BOT_TOKEN
 from flask import Flask, request
